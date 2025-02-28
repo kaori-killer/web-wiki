@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     `;
 
-    commentList.appendChild(newComment);
+    commentList.prepend(newComment);
     commentInput.value = "";
   });
 });
