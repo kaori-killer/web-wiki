@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
+    alert("댓글이 등록되었습니다.");
+
     const newComment = document.createElement("li");
     newComment.classList.add("comment-item");
     newComment.innerHTML = `
